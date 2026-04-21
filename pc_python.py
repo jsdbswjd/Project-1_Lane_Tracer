@@ -46,3 +46,5 @@ except KeyboardInterrupt:
     sock.sendall(b"STOP\n")
     print(recv_line(sock))
     sock.close()
+
+수정
