@@ -1,0 +1,21 @@
+# Default sdkconfig values for the lane tracer firmware.
+# Users still need to set Wi-Fi credentials and agent IP via `idf.py menuconfig`.
+
+# Use our custom partition table
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+CONFIG_PARTITION_TABLE_FILENAME="partitions.csv"
+
+# Bigger flash if your module has more than 4MB; adjust as needed.
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# OTA / HTTPS
+CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP=n
+CONFIG_MBEDTLS_CERTIFICATE_BUNDLE=y
+
+# micro-ROS transport (UDP)
+CONFIG_MICRO_ROS_APP_STACK=16000
+CONFIG_MICRO_ROS_APP_TASK_PRIO=5
+
+# FreeRTOS
+CONFIG_FREERTOS_HZ=1000

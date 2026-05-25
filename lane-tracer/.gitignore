@@ -1,0 +1,61 @@
+# ========== Secrets / Certificates ==========
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+server.key
+server.crt
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+*.egg
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ========== ROS 2 / colcon ==========
+build/
+install/
+log/
+**/COLCON_IGNORE
+
+# ========== ESP-IDF ==========
+esp32_firmware/build/
+esp32_firmware/sdkconfig
+esp32_firmware/sdkconfig.old
+esp32_firmware/managed_components/
+esp32_firmware/dependencies.lock
+
+# ========== Editor / OS ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========== Project logs / outputs ==========
+lane_tracer_logs/
+*.mp4
+*.avi
+*.csv
+!docs/**/*.csv
+
+# ========== Misc ==========
+*.bak
+*.tmp
+*_backup.py

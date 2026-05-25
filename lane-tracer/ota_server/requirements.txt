@@ -1,0 +1,4 @@
+# https_server.py only uses Python standard library (http.server, ssl, socket).
+# No external packages required.
+#
+# This file is kept for clarity and in case future features add dependencies.
