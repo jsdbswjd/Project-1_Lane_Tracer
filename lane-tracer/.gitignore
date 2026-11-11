@@ -53,6 +53,7 @@ lane_tracer_logs/
 *.mp4
 *.avi
 *.csv
+!esp32_firmware/partitions.csv
 !docs/**/*.csv
 
 # ========== Misc ==========
