@@ -1,0 +1,26 @@
+services:
+  microros-agent:
+    image: microros/micro-ros-agent:jazzy
+    container_name: microros-agent
+    network_mode: host
+    restart: unless-stopped
+    command: udp4 --port 8888
+
+  ros2:
+    build: ./ros2
+    container_name: ros2
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./ros2:/ros2_ws
+    command: >
+      bash -c "source /opt/ros/jazzy/setup.bash &&
+               python3 /ros2_ws/ros2_bridge.py"
+
+  flask:
+    build: ./flask
+    container_name: flask
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./flask:/app
