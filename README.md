@@ -20,7 +20,7 @@
 ### Gazebo 시뮬레이션
 영상 처리와 주행 제어 로직을 시뮬레이션 환경에서 확인했습니다.
 
-<img width="1100" height="821" alt="image" src="https://github.com/user-attachments/assets/7709f244-b5db-45e1-9fe1-e1ed5ba8cdce" />
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/7709f244-b5db-45e1-9fe1-e1ed5ba8cdce" />
 
 
 ## 담당 역할
