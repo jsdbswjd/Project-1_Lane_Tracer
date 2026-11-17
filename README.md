@@ -112,7 +112,6 @@ ROS 2 송신값, ESP32 수신값, PWM 보정량과 IMU 데이터를 기록해 �
 | [`lane-tracer/docs/`](lane-tracer/docs/) | 아키텍처·토픽 명세·환경 구축 문서 |
 | [`dashboard/`](dashboard/) | Flask 기반 웹 대시보드 및 ROS 2 브리지 |
 
-웹 대시보드는 별도로 개발했던 [edge-ros-platform](https://github.com/jsdbswjd/edge-ros-platform)의 관련 코드를 이 저장소로 통합한 구성입니다.
 
 ## 설치 및 상세 문서
 
