@@ -29,6 +29,7 @@
 
 <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/7709f244-b5db-45e1-9fe1-e1ed5ba8cdce" />
 
+- [최종 발표 자료 (PDF)](lane-tracer/docs/final-presentation.pdf)
 
 ## 담당 역할
 
