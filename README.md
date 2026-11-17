@@ -1,4 +1,4 @@
-<img width="320" height="240" alt="Video Project 5" src="https://github.com/user-attachments/assets/0ebe15b9-b2f0-4941-8042-a5c9d0c1454d" /># 영상 기반 AGV 주행 제어
+# 영상 기반 AGV 주행 제어
 ### ROS 2 · ESP32 · micro-ROS 기반 차선 추종 로봇
 
 **프로젝트 기간 | 2026.04–2026.05**
