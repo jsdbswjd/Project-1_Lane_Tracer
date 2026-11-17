@@ -9,6 +9,13 @@
 
 **주요 기술:** Python · OpenCV · ROS 2 Jazzy · micro-ROS · ESP32 · ESP-IDF · Gazebo Harmonic
 
+### 기여 범위
+
+- **본인:** `lane-tracer/` 개발 — 영상 처리, 주행 오차 계산, ESP32 PWM 제어, 통신·응답 분석 및 Gazebo 시뮬레이션 구성
+- **팀원:** `dashboard/` 개발 — Flask 기반 웹 대시보드 및 ROS 2 브리지 구현
+
+팀원이 개발한 대시보드를 이 저장소에 통합하여 주행 제어 코드와 함께 정리했습니다.
+
 ## 시연
 
 ### 실제 로봇 주행
